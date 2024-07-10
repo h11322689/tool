@@ -35,9 +35,9 @@ sudo echo 2 > /proc/sys/vm/drop_caches
 sudo echo 3 > /proc/sys/vm/drop_caches
 
 # 关闭 Swap 分区
-sudo swapoff -a
+#sudo swapoff -a
 
 # 重新启用 Swap 分区
-sudo swapon -a
+#sudo swapon -a
 
 echo "缓存清理完成"
